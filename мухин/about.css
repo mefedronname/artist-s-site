@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  background-color: rgb(255, 255, 255);
+}
+
+.container{
+  max-width: 1260px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+
+}
+
+.logo{
+  width: 15%;
+}
+
+.navigation{
+  padding-left: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  gap: 40px;
+  display: flex;
+}
+
+.header__container{
+  display: flex;
+  align-items: center;
+}
+
+main{
+  background-color: rgb(221, 221, 221);
+
+}
+
+.svyaz{
+  display: flex;
+  align-items: center;
+  background-color: rgb(221, 221, 221);
+  color: #000000;
+}
+
+
+
+label, input, textarea, button, select{
+  font-size: 1.3rem;
+  line-height: 1.2
+}
+
+form {
+  width: 30em;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+input, textarea {
+  padding: 0.4rem;
+  width: 100%;
+}
+
+button {
+  margin-top: 2rem;
+  background: #050505;
+  color: #fff;
+  border: none;
+  padding: 0.6rem;
+
+}
+
+.map{
+  padding: 50px;
+
+}
+
+.b{
+  display: flex;
+}
+
+.soc{
+  padding: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+.btn:hover{
+  transition: 1s;
+  background-color: #a09f9f;
+}

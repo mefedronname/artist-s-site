@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  background-color: rgb(255, 255, 255);
+}
+
+main{
+  background-image: url(/pict/fon.jpg);
+  background-position: center;
+
+
+}
+
+.container{
+  max-width: 1260px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+
+}
+
+.logo{
+  width: 15%;
+}
+
+.navigation{
+  padding-left: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  gap: 40px;
+  display: flex;
+}
+
+.header__con{
+  display: flex;
+  align-items: center;
+}
+
+.kategorii{
+  padding-left: 70px;
+  padding-top: 40px;
+  display: flex;
+  gap: 65px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+
+.textkat{
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.katpict{
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+.katpict2{
+  width: 280px;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-top: 100px;
+  background-color: #fff;
+}
+.katpict3{
+  width: 280px;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-top: 43px;
+  background-color: #fff;
+}
+.katpict4{
+  width: 280px;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-top: 95px;
+  background-color: #fff;
+}
+.katpict5{
+  width: 280px;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-top: 5px;
+  background-color: #fff;
+}
